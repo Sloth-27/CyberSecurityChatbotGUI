@@ -13,3 +13,6 @@ A WinForms chatbot that teaches you about cybersecurity.
 ## How to run 
 1. Install the .NET SDK
 2. Run `dotnet run` in the project folder
+
+## CI Status
+![CI passing] (Assets/ci-passing.png)
