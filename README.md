@@ -9,6 +9,7 @@ A WinForms chatbot that teaches you about cybersecurity.
 - Memory of the user's name and favourite topic
 - Sentiment detection (worried, curious, frustrated)
 - Follow ups like "tell me more"
+- Dictionary and list based responses, ready for Part 3
 
 ## How to run 
 1. Install the .NET SDK
