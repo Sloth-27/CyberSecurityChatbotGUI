@@ -7,5 +7,7 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
-
+<ItemGroup>
+  <None Update="Assets\**" CopyToOutputDirectory="PreserveNewest" />
+</ItemGroup>
 </Project>

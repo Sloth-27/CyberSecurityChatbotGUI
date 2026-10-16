@@ -53,7 +53,7 @@ namespace CyberSecurityChatbotGUI
 
         private readonly Dictionary<string, SentimentReply> _sentimentReplies = new()
         {
-            ["worried"] = tip => $"It's very understandable to feel that way. Let me share a tip to help you stay safe: {tip}",
+            ["worried"] = tip => $"You are valid to feel that way. Let me share a tip to help you stay safe: {tip}",
             ["curious"] = tip => $"Great that you're curious! Here's something worth knowing: {tip}",
             ["frustrated"] = tip => $"I know this can be annoying, but you're not alone. Here's a simple tip: {tip}"
         };
@@ -85,7 +85,7 @@ namespace CyberSecurityChatbotGUI
             {
                 _favouriteTopic = topic;
                 _currentTopic = topic;
-                return $"Cool! I'll remember that you're interested in {topic}. It's a crucial part of staying safe online.";
+                return $"Gotchu! I'll remember that you're interested in {topic}. It's a crucial part of staying safe online after all.";
             }
 
             // Sentiment with no topic: still give a tip straight away
