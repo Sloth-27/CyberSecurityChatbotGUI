@@ -1,4 +1,4 @@
-namespace CybersecurityAwarenessBot
+namespace CyberSecurityChatbotGUI
 {
     public static class AsciiArt
     {
