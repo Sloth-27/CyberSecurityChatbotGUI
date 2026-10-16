@@ -19,25 +19,30 @@ namespace CyberSecurityChatbotGUI
         private readonly Dictionary<string, List<string>> _tips = new()
         {
             ["password"] = new List<string>
-            {
+            {   
+                "Do not share your password with anyone, even if they claim to be from a trusted organisation.",
                 "Use strong, unique passwords for each account. Avoid personal details in them.",
                 "Longer is stronger: try a passphrase of four or more random words.",
                 "Use a password manager so you never have to reuse passwords."
+                
             },
             ["phishing"] = new List<string>
             {
+                "Back up important data regularly to protect against ransomware or data loss.",
                 "Be cautious and careful of emails asking for personal information. Scammers often pose as trusted organisations.",
                 "Hover over links before clicking them to check where they really lead.",
                 "Check the sender's address carefully. Phishing emails often use near identical domains."
             },
             ["scam"] = new List<string>
             {
+                "Be cautious of unrecognized calls with no names and just numbers.",
                 "If an offer sounds too good to be true, it usually is.",
                 "Never send money or share OTPs with someone who contacts you unexpectedly.",
                 "Verify unexpected requests by calling the organisation on its official number."
             },
             ["privacy"] = new List<string>
             {
+                "Keep to yourself: avoid oversharing personal information online.",
                 "Review the privacy settings on your social media accounts regularly.",
                 "Only share personal details on websites that use HTTPS.",
                 "Turn off app permissions (location, microphone) that an app doesn't need."
